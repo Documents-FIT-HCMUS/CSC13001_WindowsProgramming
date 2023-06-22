@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TDXY4O2Mx6jwe95NL+kDdCz/PBd4rVm0j7eoHn9Jl1a0MWKpIj2ukuOcvNu26TPgd0OWbFR7s/Yk/5nnqQTFzg==",
+  "success": true,
+  "projectFilePath": "D:\\Document\\Nam 3\\Lap trinh Windows\\Bai tap ve nha\\Todo\\Todo\\Todo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}

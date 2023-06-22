@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31727.386
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Books", "Books\Books.csproj", "{47DFA23E-6D4E-4C0D-B18A-2EE81AAC2BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhones", "MobilePhones\MobilePhones.csproj", "{E2839A05-C63F-4636-9A4A-894C8EABE66C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{96719698-3CAB-4EA4-BCAF-F62EC760D6FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{47DFA23E-6D4E-4C0D-B18A-2EE81AAC2BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47DFA23E-6D4E-4C0D-B18A-2EE81AAC2BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47DFA23E-6D4E-4C0D-B18A-2EE81AAC2BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47DFA23E-6D4E-4C0D-B18A-2EE81AAC2BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2839A05-C63F-4636-9A4A-894C8EABE66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2839A05-C63F-4636-9A4A-894C8EABE66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2839A05-C63F-4636-9A4A-894C8EABE66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2839A05-C63F-4636-9A4A-894C8EABE66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96719698-3CAB-4EA4-BCAF-F62EC760D6FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96719698-3CAB-4EA4-BCAF-F62EC760D6FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96719698-3CAB-4EA4-BCAF-F62EC760D6FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96719698-3CAB-4EA4-BCAF-F62EC760D6FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD61DB99-2720-4997-A4BF-FB10B61E3514}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+AddPrefix "CV "
+Replace ["vietnamworks.com"] => ""
+Replace [" "] => "-"
+AllLower

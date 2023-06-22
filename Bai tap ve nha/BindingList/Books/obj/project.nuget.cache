@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "XnuafeaAiMtI/6uN4cPRyFRnPKDdPGWCiSucRZuqQ8Y1+/oB4ue+vVz6KKC3ChEhnCYWyGzfgCbrh6F0o0dufg==",
+  "success": true,
+  "projectFilePath": "D:\\Document\\Nam 3\\Lap trinh Windows\\Bai tap ve nha\\BindingList\\Books\\Books.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ASUS\\.nuget\\packages\\controlzex\\4.4.0\\controlzex.4.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fluent.ribbon\\8.0.3\\fluent.ribbon.8.0.3.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\fody\\6.5.1\\fody.6.5.1.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.19\\microsoft.xaml.behaviors.wpf.1.1.19.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\propertychanged.fody\\3.4.0\\propertychanged.fody.3.4.0.nupkg.sha512",
+    "C:\\Users\\ASUS\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512"
+  ],
+  "logs": []
+}

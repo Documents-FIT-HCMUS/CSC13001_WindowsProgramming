@@ -1,0 +1,62 @@
+﻿<Fluent:RibbonWindow x:Class="Books.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Books"
+        xmlns:Fluent="clr-namespace:Fluent;assembly=Fluent"
+        mc:Ignorable="d"
+        Title="Books" Height="480" Width="800" Loaded="RibbonWindow_Loaded">
+    <Window.Resources>
+        <local:RelToAbsConverter x:Key="pathConverter"/>
+    </Window.Resources>
+    <StackPanel>
+        <Fluent:Ribbon>
+            <Fluent:Ribbon.Menu>
+                <Fluent:Backstage Header="File">
+                    <Fluent:BackstageTabControl>
+                        <Fluent:BackstageTabItem Header="New File"/>
+                        <Fluent:BackstageTabItem Header="Open"/>
+                        <Fluent:BackstageTabItem Header="Save"/>
+                        <Fluent:BackstageTabItem Header="Save as"/>
+                        <Fluent:BackstageTabItem Header="Export"/>
+                        <Fluent:BackstageTabItem Header="Option"/>
+                        <Fluent:BackstageTabItem Header="Account"/>
+                        <Fluent:BackstageTabItem Header="Exit"/>
+                    </Fluent:BackstageTabControl>
+                </Fluent:Backstage>
+            </Fluent:Ribbon.Menu>
+            <Fluent:RibbonTabItem Header="Home">
+                <Fluent:RibbonGroupBox Header="Utility">
+                    <Fluent:Button Header="Add" LargeIcon="images/add.png" Icon="images/add.png" Click="onAddButtonClick"/>
+                    <Fluent:Button Header="Update" LargeIcon="images/update.png" Icon="images/update.png" Click="onUpdateButtonClick"/>
+                    <Fluent:Button Header="Delete" LargeIcon="images/delete.png" Icon="images/delete.png" Click="onDeleteButtonClick"/>
+                </Fluent:RibbonGroupBox>
+            </Fluent:RibbonTabItem>
+            <Fluent:RibbonTabItem Header="Edit"/>
+            <Fluent:RibbonTabItem Header="View"/>
+        </Fluent:Ribbon>
+        <ListView Name="bookList" Width="480" Height="300" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
+                        <Image Source="{Binding ImagePath, Converter={StaticResource pathConverter}}" Width="50" Height="80"/>
+                        <TextBlock Margin="10, 0, 0, 0" FontSize="16">
+                            <Run Text="{Binding Name}"/>
+                            -
+                            <Run Text="{Binding Author}"/>
+                            -
+                            <Run Text="{Binding PublishYear}"/>
+                        </TextBlock>
+                        <StackPanel.ContextMenu>
+                            <ContextMenu>
+                                <MenuItem Header="Update" Click="onUpdateButtonClick"/>
+                                <MenuItem Header="Delete" Click="onDeleteButtonClick"/>
+                            </ContextMenu>
+                        </StackPanel.ContextMenu>
+                    </StackPanel>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackPanel>
+</Fluent:RibbonWindow>

@@ -1,0 +1,24 @@
+﻿<Window x:Class="Login.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Login"
+        mc:Ignorable="d"
+        Title="Login" Height="480" Width="800"
+        Name="loginScreen">
+    <Canvas>
+        <Label Name="usernameLabel" Canvas.Left="310" Canvas.Top="103"
+               Target="{Binding ElementName=usernameBox}">
+            _Username
+        </Label>
+        <TextBox Name="usernameBox" Width="174" Canvas.Left="310" Canvas.Top="134"/>
+        <Label x:Name="passwordLabel" Canvas.Left="310" Canvas.Top="157"
+               Target="{Binding ElementName=passwordBox}">
+            _Password
+        </Label>
+        <PasswordBox x:Name="passwordBox" Width="174" Canvas.Left="310" Canvas.Top="188"/>
+        <Button Name="loginButton" Content="LOGIN" Canvas.Left="310" Canvas.Top="232" Height="38" Width="174"
+                Click="onLoginButtonCLick"/>
+    </Canvas>
+</Window>

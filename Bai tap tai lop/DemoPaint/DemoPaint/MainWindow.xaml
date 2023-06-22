@@ -1,0 +1,29 @@
+﻿<Window x:Class="DemoPaint.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DemoPaint"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="800">
+
+    <DockPanel LastChildFill="True">
+        <StackPanel Orientation="Horizontal" DockPanel.Dock="Top" Height="40">
+            <Button x:Name="lineButton" Margin="5, 0, 5, 0" Width="80" Height="35" Click="lineButton_Click" Content="Line"/>
+            <Button x:Name="rectangleButton" Margin="5, 0, 5, 0" Content="Rectangle" Width="80" Height="35" Click="rectangleButton_Click"/>
+            <Button x:Name="ellipseButton" Margin="5, 0, 5, 0" Content="Ellipse" Width="80" Height="35" Click="ellipseButton_Click"/>
+            <Button x:Name="squareButton" Margin="5, 0, 5, 0" Content="Square" Width="80" Height="35" Click="squareButton_Click"/>
+            <Button x:Name="circleButton" Margin="5, 0, 5, 0" Content="Circle" Width="80" Height="35" Click="circleButton_Click"/>
+        </StackPanel>
+        <Grid>
+            <Canvas x:Name="canvas" Background="White">
+
+            </Canvas>
+            <Border Background="Transparent" MouseDown="canvas_MouseDown" 
+                MouseMove="canvas_MouseMove" 
+                MouseUp="canvas_MouseUp">
+
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>

@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="assets\intro.png" />
+    <None Remove="assets\quote_01.jpg" />
+    <None Remove="assets\quote_02.jpg" />
+    <None Remove="assets\quote_03.jpg" />
+    <None Remove="assets\quote_04.jpg" />
+    <None Remove="assets\quote_05.jpg" />
+    <None Remove="assets\quote_06.jpg" />
+    <None Remove="assets\quote_07.jpg" />
+    <None Remove="assets\quote_08.jpg" />
+    <None Remove="assets\quote_09.jpg" />
+    <None Remove="assets\quote_10.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="assets\intro.png" />
+    <Resource Include="assets\quote_01.jpg" />
+    <Resource Include="assets\quote_02.jpg" />
+    <Resource Include="assets\quote_03.jpg" />
+    <Resource Include="assets\quote_04.jpg" />
+    <Resource Include="assets\quote_05.jpg" />
+    <Resource Include="assets\quote_06.jpg" />
+    <Resource Include="assets\quote_07.jpg" />
+    <Resource Include="assets\quote_08.jpg" />
+    <Resource Include="assets\quote_09.jpg" />
+    <Resource Include="assets\quote_10.jpg" />
+  </ItemGroup>
+
+</Project>

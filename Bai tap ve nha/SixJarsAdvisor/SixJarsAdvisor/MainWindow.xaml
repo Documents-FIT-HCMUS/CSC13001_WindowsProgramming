@@ -1,0 +1,40 @@
+﻿<Window x:Class="SixJarsAdvisor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SixJarsAdvisor"
+        mc:Ignorable="d"
+        Title="Main Window" Height="400" Width="960">
+    <Window.Resources>
+        <local:CurrencyConverter x:Key="currencyConverter"/>
+    </Window.Resources>
+    <Canvas>
+        <Label Content="Please enter your monthly income (VNĐ)" FontSize="18" Canvas.Left="301" Canvas.Top="24"/>
+        <TextBox Name="incomeTxtBox" FontSize="20" HorizontalContentAlignment="Center"
+                 Width="200" Height="32" Canvas.Left="368" Canvas.Top="78"/>
+        <Button Name="adviseBtn" Content="Get Advise" FontSize="16" 
+                Width="120" Height="60"  Canvas.Left="348" Canvas.Top="132" Background="LightGreen" Click="adviseBtnClick"/>
+        <Label Content="{Binding Part1, Converter={StaticResource currencyConverter}}" HorizontalContentAlignment="Center"
+               FontSize="18" Width="140" Height="80" Canvas.Left="18" Canvas.Top="285"/>
+        <Label Content="{Binding Part2, Converter={StaticResource currencyConverter}}" HorizontalContentAlignment="Center"
+               FontSize="18" Width="140" Height="80" Canvas.Left="170" Canvas.Top="285"/>
+        <Label Content="{Binding Part2, Converter={StaticResource currencyConverter}}" HorizontalContentAlignment="Center"
+               FontSize="18" Width="140" Height="80" Canvas.Left="331" Canvas.Top="285"/>
+        <Label Content="{Binding Part2, Converter={StaticResource currencyConverter}}" HorizontalContentAlignment="Center"
+               FontSize="18" Width="140" Height="80" Canvas.Left="488" Canvas.Top="285"/>
+        <Label Content="{Binding Part2, Converter={StaticResource currencyConverter}}" HorizontalContentAlignment="Center"
+               FontSize="18" Width="140" Height="80" Canvas.Left="657" Canvas.Top="285"/>
+        <Label Content="{Binding Part3, Converter={StaticResource currencyConverter}}" HorizontalContentAlignment="Center"
+               FontSize="18" Width="140" Height="80" Canvas.Left="820" Canvas.Top="285"/>
+        <Button x:Name="closeBtn" Content="Close" FontSize="16" 
+            Width="120" Height="60"  Canvas.Left="480" Canvas.Top="132" Background="OrangeRed" Click="closeBtnCLick"/>
+        <Label Name="chiTieu" FontSize="14" HorizontalContentAlignment="Center" Width="120" Height="40" Canvas.Left="28" Canvas.Top="245"/>
+        <Label Name="tietKiem" FontSize="14" HorizontalContentAlignment="Center" Width="120" Height="40" Canvas.Left="180" Canvas.Top="245"/>
+        <Label Name="giaoDuc" FontSize="14" HorizontalContentAlignment="Center" Width="120" Height="40" Canvas.Left="341" Canvas.Top="245"/>
+        <Label Name="huongThu" FontSize="14" HorizontalContentAlignment="Center" Width="120" Height="40" Canvas.Left="498" Canvas.Top="245"/>
+        <Label Name="tuDo" FontSize="14" HorizontalContentAlignment="Center" Width="120" Height="40" Canvas.Left="667" Canvas.Top="245"/>
+        <Label Name="tuThien" FontSize="14" HorizontalContentAlignment="Center" Width="120" Height="40" Canvas.Left="830" Canvas.Top="245"/>
+
+    </Canvas>
+</Window>

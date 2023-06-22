@@ -1,0 +1,9 @@
+﻿<Application x:Class="XamlPractice.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:XamlPractice"
+             StartupUri="Screen01.xaml">
+    <Application.Resources>
+         
+    </Application.Resources>
+</Application>

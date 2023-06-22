@@ -1,0 +1,34 @@
+﻿<Window x:Class="Todo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Todo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="600" Loaded="MainWindow_Loaded">
+    <Canvas>
+        <ListView Name="todoListView" Canvas.Left="28" Canvas.Top="27" Width="400" Height="320">
+            <ListView.Resources>
+                <ContextMenu x:Key="taskContextMenu">
+                    <MenuItem Header="Edit" Click="OnEditTaskButtonClick"/>
+                    <MenuItem Header="Delete" Click="OnDeleteButtonClick"/>
+                </ContextMenu>
+            </ListView.Resources>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="ContextMenu" Value="{StaticResource taskContextMenu}"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Label Content="{Binding TaskName}" Height="48"/>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Content="Add task" Width="120" Height="50" Canvas.Left="452" Canvas.Top="27" Click="OnAddTaskButtonClick"/>
+        <Button Content="Edit task" Width="120" Height="50" Canvas.Left="452" Canvas.Top="82" Click="OnEditTaskButtonClick"/>
+        <Button Content="Delete" Width="120" Height="50" Canvas.Left="452" Canvas.Top="137" Click="OnDeleteButtonClick"/>
+        <Button Content="Close" Width="120" Height="50" Canvas.Left="452" Canvas.Top="192" Click="OnCloseButtonClick"/>
+    </Canvas>
+
+</Window>

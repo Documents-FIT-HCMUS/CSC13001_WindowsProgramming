@@ -1,0 +1,24 @@
+﻿<Window x:Class="RandomEnglish.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RandomEnglish"
+        mc:Ignorable="d"
+        Title="Random English" Height="480" Width="800">
+    <Canvas>
+        <Label Content="RANDOM ENGLISH WORD GENERATOR" FontSize="32" HorizontalContentAlignment="Center" FontWeight="Bold"
+               Canvas.Left="70" Canvas.Top="21" Width="660" Height="63"/>
+        <Button Name ="GenerateWord" Content="Generate Word" FontSize="16" Background="LightCyan"
+                Click="GenerateWord_Click"
+                Canvas.Left="253" Canvas.Top="84" Height="44" Width="165"/>
+        <Button Name ="Close" Content="Exit" FontSize="16" Background="LightGreen"
+                Click="CloseApplication"
+                Canvas.Left="423" Canvas.Top="84" Height="44" Width="116"/>
+        <Label Name="generatedWord" FontSize="24" HorizontalContentAlignment="Center"
+               Canvas.Left="326" Canvas.Top="133" Height="56" Width="148"/>
+        <Image Name="wordImage"
+               Height="241" Width="304" Canvas.Left="248" Canvas.Top="193"/>
+
+    </Canvas>
+</Window>
