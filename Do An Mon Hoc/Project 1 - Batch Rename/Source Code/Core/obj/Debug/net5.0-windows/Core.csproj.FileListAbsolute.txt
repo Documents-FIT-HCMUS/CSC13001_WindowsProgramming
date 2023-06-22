@@ -1,0 +1,24 @@
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\bin\Debug\net5.0-windows\Core.deps.json
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\bin\Debug\net5.0-windows\Core.dll
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\bin\Debug\net5.0-windows\ref\Core.dll
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\bin\Debug\net5.0-windows\Core.pdb
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.csproj.AssemblyReference.cache
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.AssemblyInfoInputs.cache
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.AssemblyInfo.cs
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.csproj.CoreCompileInputs.cache
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.dll
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\ref\Core.dll
+C:\Users\ngola\source\repos\CSC13001_Windows\BatchRename\ruleHandler\obj\Debug\net5.0-windows\Core.pdb
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\bin\Debug\net5.0-windows\Core.deps.json
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\bin\Debug\net5.0-windows\Core.dll
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\bin\Debug\net5.0-windows\ref\Core.dll
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\bin\Debug\net5.0-windows\Core.pdb
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.csproj.AssemblyReference.cache
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.AssemblyInfoInputs.cache
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.AssemblyInfo.cs
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.csproj.CoreCompileInputs.cache
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.dll
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\ref\Core.dll
+D:\Document\Nam 3\Lap trinh Windows\Do an mon hoc\Project 1 - Batch Rename\19120268_19120383\Source Code\Core\obj\Debug\net5.0-windows\Core.pdb

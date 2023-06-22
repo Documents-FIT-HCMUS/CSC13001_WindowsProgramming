@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons\ic_add.jpg" />
+    <None Remove="icons\ic_add_item.png" />
+    <None Remove="icons\ic_add_rule.png" />
+    <None Remove="icons\ic_cancel.png" />
+    <None Remove="icons\ic_delete_items.png" />
+    <None Remove="icons\ic_delete_rule.png" />
+    <None Remove="icons\ic_move_to_bottom.png" />
+    <None Remove="icons\ic_move_to_next.png" />
+    <None Remove="icons\ic_move_to_prev.png" />
+    <None Remove="icons\ic_move_to_top.png" />
+    <None Remove="icons\ic_new_project.png" />
+    <None Remove="icons\ic_open_preset.png" />
+    <None Remove="icons\ic_open_project.png" />
+    <None Remove="icons\ic_preview.png" />
+    <None Remove="icons\ic_readme.png" />
+    <None Remove="icons\ic_reset.png" />
+    <None Remove="icons\ic_save_preset.png" />
+    <None Remove="icons\ic_save_project.png" />
+    <None Remove="icons\ic_start.png" />
+    <None Remove="icons\ic_submit.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Fluent.Ribbon" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons\ic_add_item.png" />
+    <Resource Include="icons\ic_add_rule.png" />
+    <Resource Include="icons\ic_cancel.png" />
+    <Resource Include="icons\ic_delete_items.png" />
+    <Resource Include="icons\ic_delete_rule.png" />
+    <Resource Include="icons\ic_move_to_bottom.png" />
+    <Resource Include="icons\ic_move_to_next.png" />
+    <Resource Include="icons\ic_move_to_prev.png" />
+    <Resource Include="icons\ic_move_to_top.png" />
+    <Resource Include="icons\ic_new_project.png" />
+    <Resource Include="icons\ic_open_preset.png" />
+    <Resource Include="icons\ic_open_project.png" />
+    <Resource Include="icons\ic_preview.png" />
+    <Resource Include="icons\ic_readme.png" />
+    <Resource Include="icons\ic_reset.png" />
+    <Resource Include="icons\ic_save_preset.png" />
+    <Resource Include="icons\ic_save_project.png" />
+    <Resource Include="icons\ic_start.png" />
+    <Resource Include="icons\ic_submit.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="rules\" />
+  </ItemGroup>
+
+</Project>
